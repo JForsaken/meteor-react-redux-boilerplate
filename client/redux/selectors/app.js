@@ -1,0 +1,9 @@
+export const getIsWorking = state => state.app.working;
+export const getIsModalOpen = state => state.app.modal.open;
+export const getModalMeta = state => state.app.modal.meta;
+export const getToken = state => state.app.token;
+export const getUserId = state => state.app.userId;
+export const getCurrentTab = state => state.app.currentTab;
+export const getTabs = state => state.app.tabs;
+export const getLanguage = state => state.app.language;
+export const getLocale = state => state.app.locale;

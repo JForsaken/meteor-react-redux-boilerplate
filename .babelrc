@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "react-hot-loader/babel",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-throw-expressions",
+    "@babel/plugin-syntax-dynamic-import",
+    ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-transform-runtime", { "regenerator": true }]
+  ],
+  "presets": [
+    "@babel/react",
+    ["@babel/env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "parserOpts": {
+    "parser": "transform-pipeline-operator",
+    "parser": "transform-optional-chaining"
+  }
+}

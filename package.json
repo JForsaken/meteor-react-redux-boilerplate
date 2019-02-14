@@ -1,0 +1,56 @@
+{
+  "name": "meteor-app-boilerplate",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/core": "7.1.6",
+    "@babel/plugin-proposal-optional-chaining": "7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "7.0.0",
+    "@babel/preset-env": "7.1.6",
+    "@babel/preset-react": "7.0.0",
+    "@babel/runtime": "7.1.5",
+    "axios": "^0.18.0",
+    "classnames": "2.2.5",
+    "cordova": "8.0.0",
+    "fans-router": "3.1.0",
+    "history": "4.7.2",
+    "meteor-node-stubs": "0.3.2",
+    "moment": "2.21.0",
+    "moment-timezone": "0.5.17",
+    "prop-types": "15.6.0",
+    "ramda": "0.25.0",
+    "react": "16.2.0",
+    "react-click-outside": "3.0.1",
+    "react-dom": "16.2.0",
+    "react-hot-loader": "4.2.0",
+    "react-modal": "3.3.1",
+    "react-redux": "5.0.6",
+    "react-redux-toastr": "7.2.1",
+    "redux": "3.7.2",
+    "redux-logger": "3.0.1",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "eslint": "5.9.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-meteor": "5.1.0",
+    "eslint-plugin-react": "7.11.1",
+    "pre-push": "0.1.1",
+    "stylelint": "9.2.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    }
+  }
+}
